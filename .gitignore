@@ -1,0 +1,9 @@
+node_modules
+package-lock.json
+yarn.lock
+_site
+.vscode
+.history
+
+netlify/functions/mushroom/**
+!netlify/functions/mushroom/index.js
