@@ -1,5 +1,5 @@
 [[redirects]]
-from = "/mushroom/"
+from = "/preview/"
 to = "/.netlify/functions/mushroom"
 status = 200
 force = true

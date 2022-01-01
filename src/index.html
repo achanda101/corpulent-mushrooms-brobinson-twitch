@@ -6,18 +6,7 @@ layout: 'base.njk'
 
 <div class="container">
 	{% include "mushroom.html" %}
-	<form action="/mushroom/" class="colors">
-		<label for="bgcolor"
-			>Cap Colour
-			<input type="text" name="bgcolor" />
-		</label>
-		<br />
-		<label for="fgcolor"
-			>Spot Colour
-			<input type="text" name="fgcolor" />
-		</label>
-        <button type="submit">Make my Mushroom</button>
-	</form>
+	{% include "form.html" %}
 </div>
 
 <!-- Stopped at 00:36:24 on Part 1 -->

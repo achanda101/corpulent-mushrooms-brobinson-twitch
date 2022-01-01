@@ -2,7 +2,7 @@
 layout: 'base.njk'
 permalink:
   build: '/mushroom/'
-  mushroom: '/mushroom/'
+  mushroom: '/preview/'
 ---
 
 <style>
@@ -15,4 +15,4 @@ permalink:
 </style>
 
 <h2>Your mushroom madam!</h2>
-<div class="container">{% include "mushroom.html" %}</div>
+<div class="container">{% include "mushroom.html" %} {% include "form.html" %}</div>
