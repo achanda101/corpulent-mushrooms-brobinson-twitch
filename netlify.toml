@@ -1,0 +1,6 @@
+[[redirects]]
+from = "/mushroom/"
+to = "/.netlify/functions/mushroom"
+status = 200
+force = true
+_generated_by_eleventy_serverless = "mushroom"

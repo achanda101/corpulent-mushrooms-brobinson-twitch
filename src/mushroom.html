@@ -1,5 +1,18 @@
 ---
-layout: "base.njk"
+layout: 'base.njk'
+permalink:
+  build: '/mushroom/'
+  mushroom: '/mushroom/'
 ---
 
-<h1>Plain old Mushroom :-(</h1>
+<style>
+	.cap {
+	    background-color: {{ eleventy.serverless.query.bgcolor }}
+	}
+	.spot {
+	    background-color: {{ eleventy.serverless.query.fgcolor }}
+	}
+</style>
+
+<h2>Your mushroom madam!</h2>
+<div class="container">{% include "mushroom.html" %}</div>
